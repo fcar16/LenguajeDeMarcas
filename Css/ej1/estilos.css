@@ -1,0 +1,53 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+/*Body es toda la pagina en si y el backgraund-color es para el fondo de la pagina salga de ese color*/
+body {background-color: aqua}
+body{background-image: url("jabber2.gif");
+      vertical-align: center;
+      background-repeat: no-repeat;
+      background-position: right center;
+      width: 55%;
+     
+}
+
+/* Headers */
+/*El h1 sirve para poner un titulo en la pagina, el color para indicar el color en el que salga en la pagina*/
+/*h1 {color:maroon; font-size:20pt}*/
+h2 {color:palevioletred;}
+h1 {color:maroon;font-size:20pt;padding: 10px 10px 10px 10px; background-image: url("backtile.gif"); margin-right: 500px; text-align: center; background-color: white;border-style: groove double;border-color: blue;border-width: 10px;}
+
+
+/* HR (Hard Rule = line) */
+/*El hr nos sirve para poner una linea entre parrafo y parrafo y el color para ponerle color a la linea*/
+hr {color:navy; height: 10px;}
+
+/* Paragraphs */
+/*p sirve para darle a la zona donde esta p el tamaño de letra y la separacion al margen izquierda u el p.verse para todo que tenga la 
+clase verse salga de color maroon y separado 60px del margen izquierdo*/
+p {font-size:12pt; margin-left: 15px}
+p.verse {color:maroon; margin-left: 60px}
+p.comment{color:yellowgreen;}
+
+/* Divs */
+div.reference {color:slategray; margin-left: 40px;}
+
+/* Links */
+/*Los link sirve para poner un link de un color depende de la accion
+*/
+a:link     {color:green}/* El link predeterminado esta en verde*/
+a:visited  {color:yellow}/*El link una vez visitado se pone en amarillo*/
+a:hover    {color:black}/*El link con el cursor encima se pone negro*/
+a:active   {color:blue}/*El link pulsado se vuelve en  azul*/
+
+/* Navigation */
+
+/* Classes used by all html elements */
+/*EJERCICIOS*/
+/*2.-¿Por qué los últimos 5 párrafos se muestran de forma diferente que los 2 primeros?
+      Porque los 2 primeros estan en la clase verse.
+
+/* Ids */
+
+

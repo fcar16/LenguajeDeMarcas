@@ -1,0 +1,14 @@
+/* Paragraphs */
+
+/*Poner la primera columna roja*/
+.columna{ background-color: red; color: white;}
+/*Poner fonde gris tamaño de letra y alineado al centro a los GB*/
+#identified{ background-color: gray; font-size: 25px; text-align: center;}
+/*Color de la listas*/
+P.lista{color: red;}
+/*Aplicar padding y amarrilo con id*/
+#tiempo { padding: 30px; background-color: yellow;}
+/*Poner color azul todos los que tienen colspan*/
+[colspan]{background-color: blue;}
+/*Cambiar tamaño de las imagenes*/
+img{width: 50px; height: 50px;}
