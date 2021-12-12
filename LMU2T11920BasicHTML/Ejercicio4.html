@@ -1,0 +1,72 @@
+<html> 
+<form action="ex4.html" method="post">
+    <fieldset style="width: 400; border-color: rgb(6, 6, 192);" >
+        <h1>Reservado</h1>
+        <fieldset style="width: 400;">
+       <legend style="color: rgb(9, 9, 250);">Informacion General</legend>
+        <table>
+            <tr>
+                <td>Fecha de llegada:</td>
+                <td><input name="Date" size="10" type="date"/><br/></td>
+                <td><FONT COLOR="red"></b>Arrival Date is invalid</FONT</b></td>
+            </tr>
+            <tr>
+                <td>Noche:</td>
+                <td><input name="Nights" type="text"/><br/></td>
+                <td><FONT COLOR="red"></b>Nights must be a number</FONT</b>
+                </td>
+            </tr>
+            <tr>
+                <td>Niños:</td>
+                <td><input type="number"/><br/></td>
+            </tr>
+            <tr>
+                <td>Adultos</td>
+                <td><input name="Adults" type="number"></td><br/>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset style="width: 400;">
+        <legend style="color: rgb(14, 14, 211);">Preference</legend>
+        <table style="width: 400;">
+            <tr>
+             <td>Tipo de Habitacion:</td>
+             <td><input type="radio" /> Standard</td>
+             <td><input type="radio" /> Business</td>
+             <td><input type="radio" /> Suite</td>
+            </tr>
+            <tr>
+             <td>Tipo de cama:</td>
+             <td><input type="radio" />King</td>
+             <td><input type="radio" />Double Double</td>
+            </tr>
+            <tr>
+             <td><input type="checkbox" /> Smoking</td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset style="width: 400;">
+        <legend style="color: blue;">Informacion del contacto</legend>
+        <table style="width: 400;">
+            <tr>
+             <td>Nombre:</td>
+             <td><input name="text" size="10" type="text"/><br/></td>
+             <td><FONT COLOR="red"></b>El nombre es requirido</FONT</b></td>
+            </tr>
+            <tr>
+             <td>Email:</td>
+             <td><input name="Email" type="email"/><br/></td>
+             <td><FONT COLOR="red"></b>El Email Introducido es Incorrecto</FONT</b></td>
+            </tr>
+            <tr>
+             <td>Movil:</td>
+             <td><input type="text"/><br/></td>
+             <td><FONT COLOR="red"></b>El Numero de telefono es Incorrecto</FONT</b></td>
+            </tr>
+        </table>
+    </fieldset>
+     <input type="submit" value="Reservar">
+     <input type="reset" value="Limpiar">
+    </fieldset>
+    </form>
+</html>

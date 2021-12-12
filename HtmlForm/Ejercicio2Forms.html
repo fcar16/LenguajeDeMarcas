@@ -1,0 +1,99 @@
+<html>
+    <body>
+        <style>
+        table{
+            border: #3b83bd 3px solid;
+        }
+       
+        </style>
+            <form>
+                <table >
+                    <tr bgcolor="blue">
+                        <td>Event Planner </td>
+                        <td>More Action
+                            <select id="More Action" name="More Action">
+                            <option value="1" selected></option>
+                            <option value="2" >2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Event Name</td>
+                        <td><input type="text"></td>
+                        <td width="150">Requirements</td>
+                        <td > <input type="checkbox" id="check1" name="check1" value="A" />
+                            <label for="check1">Staffing</label><br>
+                            <input type="checkbox" id="check2" name="check2" value="B" checked />
+                            <label for="check2">Catering</label><br>
+                            <input type="checkbox" id="check3" name="check3" value="C" />
+                            <label for="check3">Security</label></td>
+                    </tr>
+                    <tr>
+                        <td>Event Coordinator</td>
+                        <td><input type="text"></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text"></td>
+                    <td>Event Start Date</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Event type</td>
+                    <td><select id="More Action" name="More Action">
+                        <option value="1" selected>Concert</option>
+                        <option value="2" >Boda</option>
+                        <option value="3">cumple</option>
+                    </td>
+                    <td>Event End Date</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Total Members</td>
+                    <td><select id="More Action" name="More Action">
+                        <option value="1" selected>-Select-</option>
+                        <option value="2" >10-15</option>
+                        <option value="3">15-30</option></td>
+                    <td>Location</td>
+                    <td><textarea cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Event Description</td>
+                    <td rowspan="3"><textarea cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                    <td><select id="More Action" name="More Action">
+                        <option value="1" selected>-Select-</option>
+                        <option value="2" >Cordoba</option>
+                        <option value="3">Almeria</option></td>
+                </tr>
+                <tr>
+                    <td>Does your program<br> involve any type of <br>outside activity?</td>
+                    <td> <input type="radio" id="opc1" name="grupo" value="A" /> Yes<br>
+                        <input type="radio" id="opc2" name="grupo" value="B"  /> No
+                    </td>
+                    <td>Country</td>
+                    <td><select id="More Action" name="More Action">
+                        <option value="1" selected>-Select-</option>
+                        <option value="2" >España</option>
+                        <option value="3">EEUU</option</td>
+                </tr>
+                <tr>
+                    <td>Cost per Person</td>
+                    <td><input type="text">USD</td>
+                    <td>ATTACH<BR>DETAILED<BR>ITINERARY</td>
+                    <td><input type="text"> <input type="submit" id="Enviar" name="Enviar" value="Browse" /></td>
+                </tr>
+                </table>
+               <center><input type="reset" />    <input type="submit" id="Enviar" name="Enviar" value="Submit" /></center> 
+            </form>
+    </body>
+</html>

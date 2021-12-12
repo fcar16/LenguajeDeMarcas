@@ -1,0 +1,132 @@
+<html>
+    <body>
+        <style>
+        table,
+        td{
+            text-align: left;
+            border-collapse: collapse;
+
+            
+        }
+        th{
+            text-align: left;
+            
+        
+        }
+        .Bordes{
+            border: 1px gray solid;
+        }
+        </style>
+            <form>
+                <table>
+                 <tr >   
+                    <td> <label for="fname">Title:<FONT COLOR="red"></b>*</FONT</b></label></td>
+                    <td> <label for="lname">Short Title:<FONT COLOR="red"></b>*</FONT</b></label></td>
+                    <td> <label for="subj">Subj.:</label></td>
+                    <td><label for="num">Num.:</label></td>
+                    <td><label for="Section">Section:</label></td>
+                    <td><label for="Year">Year:</label></td>
+                 </tr>
+                 <tr>
+                    <td> <input type="text" size="50" id="fname" name="fname" value="Astronomy for Poets" required></td>
+                    <td><input type="text" size="30" id="lname" name="lname" value="Astr.for Poets" required></td>
+                    <td>BLST</td>
+                    <td><input type="text" size="3"  id="num" name="num" value="10" ></td>
+                    <td><input type="text" size="3" id="Section" name="Section" value="01"></td>
+                    <td>0910</td>
+                 </tr>
+                </table>
+            </form>
+            <form>
+                <table >
+                    <tr  >
+                        <td class="Bordes"><input type="checkbox" id="1" name="1" ><label for="1"> Enrollment<br>limit</label><br></td>
+                        <td class="Bordes"><label for="num">Num.:</label><br><input type="text"   id="num" name="num" value="10" size="3" ></td>
+                        <td class="Bordes"><label for="Rationale">Rationale:</label><br><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                        <td class="Bordes" bgcolor="B6B4B4">Class Metting/Week<br> 
+                            <select id="Class Metting" name="class Metting">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option><br>
+                        </td>
+                        <td class="Bordes" bgcolor="B6B4B4">
+                         Keywods: <br><input type="checkbox">Science for mon-majors
+                        </td >
+                        <hr>
+                    </tr>
+                    <tr bgcolor="BFBABA">
+                        <td class="Bordes" colspan="2"><input type="checkbox" id="2" name="2" ><label for="2"> Consent<br>required</label><br></td>
+                        <td class="Bordes"><label for="Rationale">Rationale:</label><br><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                        <td  class="Bordes" bgcolor="B6B4B4">Class Hours/Week:<br> 
+                            <select id="Class Metting" name="class Metting">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option></td>
+                        <td class="Bordes"><input type="checkbox">Fine arts for mon-majors</td>
+                    </tr>
+                    <tr  >
+                        <td class="Bordes" rowspan="2"><input type="checkbox" id="2" name="2" ><label for="2"> Limit class<br>level</label><br></td>
+                        <td class="Bordes" rowspan="2"><label for="Code">Code.:</label><br><input type="text"   id="num" name="num" value="10" size="3" ></td>
+                        <td class="Bordes"><label for="Rationale">Rationale:</label><br><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                        <td class="Bordes" bgcolor="B6B4B4">Semestred Offered:<br> 
+                            <select id="Class Metting" name="class Metting">
+                            <option value="1" selected>--none--</option>
+                            <option value="2" >2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option></td>
+                        <td class="Bordes" bgcolor="B6B4B4"><input type="checkbox">Lab since course</td>
+                    </tr>
+                    <tr >
+                        <td  class="Bordes"><label for="Rationale">How to handle over-enrollment:</label><br><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                        <td class="Bordes" bgcolor="B6B4B4"><input type="checkbox">Incl.semestred in prereqs.</td>
+                        <td class="Bordes" bgcolor="B6B4B4"><input type="checkbox">Artic practice</td>
+                    </tr>
+                    <tr bgcolor="BFBABA">
+                        <td class="Bordes" rowspan="3" colspan="2"><input type="checkbox" id="2" name="2" ><label for="2"> Prerequisite</label><br></td>
+                        <td class="Bordes"><label for="Rationale">Rationale:</label><br><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                        <td class="Bordes" bgcolor="B6B4B4"><input type="checkbox">Offered only once</td>
+                        <td class="Bordes"><input type="checkbox">Foreign lenguage/culture taught in English</td>
+                    </tr>
+                    <tr>
+                        <td class="Bordes" bgcolor="B6B4B4"><label for="Rationale">Required Prereqs. (major.course)</label><br><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                        <td class="Bordes" bgcolor="B6B4B4" rowspan="2"><input type="checkbox" >Incl. in printed catalog</td>
+                        <td class="Bordes" bgcolor="B6B4B4"><input type="checkbox">Community based learning</td>
+                    </tr>
+                    <tr>
+                        <td class="Bordes" bgcolor="B6B4B4" rowspan="2"><label for="Rationale">Recommended Prereqs.:</label><br><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                        <td class="Bordes" bgcolor="B6B4B4"><input type="checkbox">Writing attentive</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="Bordes" bgcolor="B6B4B4"><br><input type="checkbox">Writing intensive</td>
+                    </tr>
+                </table>
+                <table width="40%">
+                    <tr>
+                        <td>Approvals</td>
+                        <td>Date:</td>
+                        <td>Comment:</td>
+                    </tr>
+                    <tr>
+                        <td><br><input type="checkbox">C.E.P</td>
+                        <td bgcolor="EAEAEA"><input type="text"   id="Rationale" name="Rationale"  size="10" ></td>
+                        <td bgcolor="EAEAEA"><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                    </tr>
+                    <tr>
+                        <td><br><input type="checkbox">Commuittee of Six</td>
+                        <td bgcolor="B6B4B4"><input type="text"   id="Rationale" name="Rationale"  size="10" ></td>
+                        <td bgcolor="B6B4B4"><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                    </tr>
+                         <tr>
+                        <td><br><input type="checkbox">Faculty</td>
+                        <td bgcolor="EAEAEA"><input type="text"   id="Rationale" name="Rationale"  size="10" ></td>
+                        <td bgcolor="EAEAEA"><input type="text"   id="Rationale" name="Rationale"  size="30" ></td>
+                    </tr>
+                </table>
+            </form>
+    </body>
+</html>
