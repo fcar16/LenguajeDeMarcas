@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.Color{
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+header nav{
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li {
+    padding: 10px 20px;
+    display: block;
+    color: gray;
+    text-decoration: none;
+}
+header nav ul li:hover {
+    background-color: black;
+    color: white;
+   
+}
+.Azul{
+    color: blue;
+}
+.green{
+    background-color: lime;
+}
+
+.fondo{
+    background-color: rgb(64, 64, 248);
+    text-align: center;
+}
+.letras{
+    float: right;
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: rgb(64, 64, 248);
+    font-size: 23px;
+}

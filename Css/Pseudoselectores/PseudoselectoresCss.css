@@ -1,0 +1,35 @@
+
+td:first-child{
+    background-color: green;
+}
+th:first-letter{
+    font-size: 55px;
+}
+table{
+    width: 50%;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td:last-child:hover{
+    font-size: 50px;
+    
+}
+th:last-child:hover{
+    font-size: 50px;
+    
+}
+input{border-color: red ;}
+a:visited{
+    color: red;
+    font-size: 40px;
+    text-decoration: none;
+}
+a{
+    color: lime;
+    font-size: 40px;
+    text-decoration: none;
+}
+#Recreo{
+    background-color: yellow;
+}

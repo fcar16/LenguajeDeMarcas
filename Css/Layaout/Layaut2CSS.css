@@ -1,0 +1,43 @@
+.main{
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}.article{
+    float: left;
+    background-color: white;
+    text-align:center;
+    width: 10%;
+    padding: 10px 20px;
+    margin: 70px;
+}
+.coche{
+    float: left;
+    background-color: white;
+    text-align: center;
+    width: 10%;
+    padding: 10px 20px;
+    margin: 70px;
+    
+    
+}
+.casa{
+    float: left;
+    background-color: white;
+    text-align: center;
+    width: 10%;
+    padding: 10px 20px;
+    margin: 70px;
+}
+.Arbol{
+    float: left;
+    background-color: white;
+    text-align: center;
+    width: 10%;
+    padding: 10px 20px;
+    margin: 70px;
+}
+footer{
+    float: right;
+}
